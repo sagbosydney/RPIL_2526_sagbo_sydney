@@ -1,0 +1,120 @@
+/* ===========================
+   STYLE GENERAL
+=========================== */
+
+body {
+    background: #f4f7fb;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+/* ===========================
+   TITRE
+=========================== */
+
+h1 {
+    font-weight: bold;
+}
+
+.lead {
+    color: #666;
+}
+
+/* ===========================
+   CARTE DU FORMULAIRE
+=========================== */
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+.card-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* ===========================
+   FORMULAIRE
+=========================== */
+
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 8px rgba(13,110,253,0.25);
+}
+
+/* ===========================
+   BOUTON
+=========================== */
+
+.btn-primary {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.02);
+}
+
+/* ===========================
+   RESULTATS
+=========================== */
+
+.card-body h4 {
+    font-weight: bold;
+}
+
+.alert-success {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ===========================
+   SCORE
+=========================== */
+
+.score {
+    font-size: 22px;
+    color: green;
+    font-weight: bold;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    .btn-primary {
+        font-size: 16px;
+    }
+
+}
+
